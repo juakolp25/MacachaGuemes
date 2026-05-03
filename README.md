@@ -1,50 +1,16 @@
-# ✦ Hackerspace Macacha Güemes ✦
-> **Nodo Rebelde :: Salta, 1810 :: Red Encubierta Patriota**
+# React + Vite
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Este proyecto es una **Landing Page interactiva** y un juego de lógica inspirado en la estética Cyberpunk de *Mr. Robot* y en la figura histórica de **Macacha Güemes**, la pieza clave del espionaje y la inteligencia en el norte argentino durante las guerras de independencia.
+Currently, two official plugins are available:
 
-## 💾 Operación: Salta Rebelde
-La aplicación sumerge al usuario en una terminal de comandos antigua pero tecnológicamente avanzada, donde debe completar **10 misiones de inteligencia**. 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### Características:
-* **Mecánicas de Hacking:** Uso de Cifrado César, lógica de patrones, acertijos históricos y reconocimiento de frecuencias.
-* **Estética Retro-Hacker:** Efecto de *scanlines* de monitores CRT, parpadeos, tipografía monoespaciada y animaciones tipo terminal.
-* **Narrativa Histórica:** Cada misión está basada en hechos reales de la Gesta Güemesiana y la Red de Mujeres de la Independencia.
-* **Feedback Visual:** Sistema de intentos limitados, barra de progreso dinámica y un mapa táctico final en arte ASCII.
+## React Compiler
 
-## 🛠️ Tecnologías utilizadas
-* **React 19** (Hooks para gestión de estado y efectos).
-* **Tailwind CSS** (Estilos y efectos visuales de monitor antiguo).
-* **Framer Motion** (Animaciones de entrada y efectos de glitch).
-* **Lucide React** (Iconografía técnica).
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🚀 Instalación y Despliegue Local
+## Expanding the ESLint configuration
 
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone [https://github.com/juakolp25/MacachaGuemes.git](https://github.com/juakolp25/MacachaGuemes.git)
-    cd MacachaGuemes
-    ```
-
-2.  **Instalar dependencias:**
-    ```bash
-    npm install
-    ```
-
-3.  **Correr en modo desarrollo:**
-    ```bash
-    npm run dev
-    ```
-
-4.  **Desplegar en GitHub Pages:**
-    ```bash
-    npm run deploy
-    ```
-
-## 📜 Licencia
-Este proyecto está bajo la **Licencia MIT**. Siéntete libre de usarlo, modificarlo y hackearlo para la causa patriota.
-
----
-*"No es menos heroica la labor de quien sostiene desde las sombras."*
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
