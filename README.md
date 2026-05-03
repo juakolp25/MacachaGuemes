@@ -24,8 +24,8 @@ La aplicación sumerge al usuario en una terminal de comandos antigua pero tecno
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
-    cd tu-repositorio
+    git clone [https://github.com/juakolp25/MacachaGuemes.git](https://github.com/juakolp25/MacachaGuemes.git)
+    cd MacachaGuemes
     ```
 
 2.  **Instalar dependencias:**
